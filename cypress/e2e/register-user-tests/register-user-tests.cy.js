@@ -15,7 +15,7 @@ describe('Validar Registro de Usuário', () => {
         cy.typeState('Distrito Federal');
         cy.typeZipCode('465789521');
         cy.typePhoneNumber('61988954889');
-        cy.typeSSN('2335265648488');
+        cy.typeSSN('23352656484889');
         cy.typeUserName(faker.internet.username());
         cy.typePassword('teste123');
         cy.typeRepeatedPassword('teste123');
